@@ -1,1 +1,14 @@
-Virtual DOM
+Virtual DOM ,reconsiliation ,fiber
+
+React fiber:
+Other key features include the ability to pause, abort, or reuse work as new updates come in; the ability to assign priority to different types of updates; and new concurrency primitives.
+
+use of keys in fiber
+
+Different component types are assumed to generate substantially different trees. React will not attempt to diff them, but rather replace the old tree completely.
+Diffing of lists is performed using keys. Keys should be "stable, predictable, and unique."
+
+pause work and come back to it later.
+assign priority to different types of work.
+reuse previously completed work.
+abort work if it's no longer needed.
