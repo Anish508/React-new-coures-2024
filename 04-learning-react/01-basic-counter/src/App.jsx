@@ -5,13 +5,16 @@ import './App.css'
 
 function App() {
 
-  let [counter , setCounter] = useState(5)
+  let [counter , setCounter] = useState()
   // let counter = 5
 
+  //imp interview
   const addValue = ()=>{
     if (counter <10) {
-      counter+=1
-      setCounter(counter)
+      setCounter(prevCounter=>prevCounter+1)
+      setCounter(prevCounter=>prevCounter+1)
+      setCounter(prevCounter=>prevCounter+1)
+      setCounter(prevCounter=>prevCounter+1)
     }else{
       setCounter(0)
     }
