@@ -15,3 +15,5 @@ abort work if it's no longer needed.
 
 senerio:
 increament and decreament counter
+
+in react <a> tag will not be used because of page reload instead of it we use <Link> which is part of react-router-dom
