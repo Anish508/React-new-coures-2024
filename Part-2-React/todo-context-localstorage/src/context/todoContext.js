@@ -3,10 +3,10 @@ import {createContext , useContext} from "react"
 export const todoContext = createContext({
   todos:[
     {
-      id:1,
+     /*  id:1,
       todo:"Todo Message",
-      completed : "false"
-    }
+      completed : "false"*/
+    } 
   ],
   addTodo : (todo)=>{},
   updateTodo: (id , todo)=>{},
