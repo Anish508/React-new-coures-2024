@@ -8,6 +8,7 @@ import { addTodo } from '../feature/todo/todoSlice'
 function AddTodo() {
 
   const [input , setInput] = useState()
+  const[anotherInput , setAnotherInput] = useState()
   const dispatch = useDispatch()
 
 const addTodoHandler = (e)=>{
